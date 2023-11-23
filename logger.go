@@ -98,6 +98,10 @@ func (l *logger) Error() debuglog.Event {
 	return &event{logger: l.Logger.Error}
 }
 
+func (l *logger) NoLog() debuglog.Event {
+	return noopEvent{}
+}
+
 type event struct {
 	logger func(msg string, fields ...zap.Field)
 	fields []zap.Field
