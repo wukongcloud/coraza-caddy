@@ -1,4 +1,4 @@
-module github.com/corazawaf/coraza-caddy/v2
+module github.com/wukongcloud/coraza-caddy/v2
 
 go 1.18
 

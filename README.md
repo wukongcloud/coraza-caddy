@@ -1,7 +1,7 @@
 # Coraza WAF Caddy Module
 
-[![Tests](https://github.com/corazawaf/coraza-caddy/actions/workflows/tests.yml/badge.svg)](https://github.com/corazawaf/coraza-caddy/actions/workflows/tests.yml)
-<a href="https://pkg.go.dev/github.com/corazawaf/coraza-caddy" target="_blank"><img src="https://img.shields.io/badge/godoc-reference-blue.svg"></a>
+[![Tests](https://github.com/wukongcloud/coraza-caddy/actions/workflows/tests.yml/badge.svg)](https://github.com/wukongcloud/coraza-caddy/actions/workflows/tests.yml)
+<a href="https://pkg.go.dev/github.com/wukongcloud/coraza-caddy" target="_blank"><img src="https://img.shields.io/badge/godoc-reference-blue.svg"></a>
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 [OWASP Coraza](https://github.com/corazawaf/coraza) Caddy Module provides Web Application Firewall capabilities for Caddy.
@@ -72,7 +72,7 @@ http://127.0.0.1:8080 {
 Run:
 
 ```shell
-xcaddy build --with github.com/corazawaf/coraza-caddy/v2
+xcaddy build --with github.com/wukongcloud/coraza-caddy/v2
 ```
 
 ## Testing
